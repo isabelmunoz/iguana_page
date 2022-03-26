@@ -1,0 +1,98 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #000000;
+  margin: auto;
+  padding: 2px 0;
+  font-weight:500;
+}
+.image_principal{
+    background: #000000;
+}
+
+.image_iguana img{
+ width: 100%;
+ background-position: center; 
+}
+
+.desc-section{
+    display: flex;
+    background: #000000;
+    color: #ffffff;
+    margin: auto;
+}
+
+.desc-section div{
+    width: 80%;
+    padding:40px;
+
+}
+.desc-section p:first-child{
+    padding:50px 0 0 0;
+   
+}
+.desc-section p{
+    font-weight: 300; 
+}
+.desc-section img{
+    width: 100%;
+    padding: 40px 0;
+
+}
+
+.icons-section{
+ background: #1e1a13;
+
+}
+.icons-section {
+color: #ffffff;
+}
+.icons-section h2 {
+    font-weight: 500;
+    padding: 30px;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+}
+.icons-section p {
+    font-weight: 300;
+}
+.icons-section-images{
+    display: flex;
+    justify-content: center;
+}
+.icons-section-images div{
+    margin:30px 50px 40px 50px;
+    text-align: center;
+
+}
+
+.icons-section-images div i{
+    font-size: 30px;
+}
+
+.photos-section{
+    display: flex;
+    justify-content: center;
+    background: #000000;
+    padding: 50px;
+}
+
+.photos-section img{
+ width: 30%;
+ margin: 0 10px;
+}
+
+footer{
+    color: #ffffff;
+    text-align: center;
+    background: #1E1A13;
+    padding: 15px 0;
+    font-weight: 300;
+}
